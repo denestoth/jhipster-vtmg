@@ -1,0 +1,24 @@
+{
+  "vtmgApp": {
+    "kind": {
+      "home": {
+        "title": "Kinds",
+        "createLabel": "Create a new Kind",
+        "createOrEditLabel": "Create or edit a Kind",
+        "notFound": "No Kinds found"
+      },
+      "created": "A new Kind is created with identifier {{ param }}",
+      "updated": "A Kind is updated with identifier {{ param }}",
+      "deleted": "A Kind is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Kind {{ id }}?"
+      },
+      "detail": {
+        "title": "Kind"
+      },
+      "description": "Description",
+      "details": "Details",
+      "person": "Person"
+    }
+  }
+}
