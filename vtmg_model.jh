@@ -1,0 +1,33 @@
+//
+// An entity model for VtMG
+//
+enum Gender {
+    MALE, FEMALE, OTHER
+}
+entity Person {
+    name String required,
+    bithDate LocalDate,
+    deathDate LocalDate,
+    details String,
+    gender Gender
+}
+entity Kind {
+    description String required,
+    details String
+}
+entity Place {
+    name String required,
+    details String
+}
+entity Event {
+    description String required,
+    date LocalDate,
+    details String
+}
+relationship ManyToOne {
+    Event to Place
+    Person to Kind
+}
+relationship ManyToMany {
+    Event to Person
+}
